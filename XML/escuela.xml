@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE escuela SYSTEM "escuela.dtd">
+<escuela>
+    <curso id="01">
+        <nombre>Lenguaje de Marcas</nombre>
+        <duracion>10 meses</duracion>
+        <descripcion>Aprendiendo HTML, CSS y XML</descripcion>
+        <beca/>
+        <aula informatica="si">
+            <planta>3</planta>
+            <num_aula>9C</num_aula>
+        </aula>
+        <precios>
+            <antiguos_alumnos>500</antiguos_alumnos>
+            <nuevos_alumnos>800</nuevos_alumnos>
+        </precios>
+        <semana horario="mañana">
+            <fechaInicio>
+                <dia>1</dia>
+                <mes>Diciembre</mes>
+                <año>2024</año>
+            </fechaInicio>
+            <fechaFin>
+                <dia>1</dia>
+                <mes>Diciembre</mes>
+                <año>2024</año>  
+            </fechaFin>
+        </semana>
+        <profesores>
+            <profesor tipo="teoria">
+                <nombre>Carlos</nombre>
+                <apellidos>Caro</apellidos>
+            </profesor>
+            <profesor tipo="practica">
+                <nombre>Carlos</nombre>
+                <apellidos>Caro</apellidos>
+            </profesor>
+        </profesores>
+        <temas id="1">
+            <titulo>HTML</titulo>
+            <resumen>Etiquetas, enlaces, tablas, listas, etc.</resumen>
+            <palabra_clave>web</palabra_clave>
+            <ejercicios>
+                <practicos>
+                    <num_ejercicios>5</num_ejercicios>
+                    <duracion>2 horas</duracion>
+                </practicos>
+                <teoricos>
+                    <num_ejercicios>3</num_ejercicios>
+                    <duracion>2.5 horas</duracion>
+                </teoricos>
+            </ejercicios>
+        </temas>
+    </curso>
+    <curso id="01">
+        <nombre>Programación</nombre>
+        <duracion>10 meses</duracion>
+        <descripcion>Aprendiendo JAVA</descripcion>
+        <beca/>
+        <aula informatica="si">
+            <planta>3</planta>
+            <num_aula>9C</num_aula>
+        </aula>
+        <precios>
+            <antiguos_alumnos>300</antiguos_alumnos>
+            <nuevos_alumnos>500</nuevos_alumnos>
+        </precios>
+        <semana horario="mañana">
+            <fechaInicio>
+                <dia>21</dia>
+                <mes>Septiembre</mes>
+                <año>2023</año>
+            </fechaInicio>
+            <fechaFin>
+                <dia>1</dia>
+                <mes>Diciembre</mes>
+                <año>2024</año>  
+            </fechaFin>
+        </semana>
+        <profesores>
+            <profesor tipo="teoria">
+                <nombre>Ruben</nombre>
+                <apellidos>Gonzalez</apellidos>
+            </profesor>
+            <profesor tipo="practica">
+                <nombre>Ruben</nombre>
+                <apellidos>Gonzalez</apellidos>
+            </profesor>
+        </profesores>
+        <temas id="1">
+            <titulo>Intoduccion a JAVA</titulo>
+            <resumen>Salida por pantalla, variables y tipos de datos</resumen>
+            <palabra_clave>Compilar</palabra_clave>
+            <ejercicios>
+                <practicos>
+                    <num_ejercicios>3</num_ejercicios>
+                    <duracion>3 horas</duracion>
+                </practicos>
+                <teoricos>
+                    <num_ejercicios>3</num_ejercicios>
+                    <duracion>2.5 horas</duracion>
+                </teoricos>
+            </ejercicios>
+        </temas>
+    </curso>
+    <curso id="01">
+        <nombre>Bases de Datos</nombre>
+        <duracion>10 meses</duracion>
+        <descripcion>Aprendiendo ERD, Worckbench y MySql</descripcion>
+        <beca/>
+        <aula informatica="si">
+            <planta>3</planta>
+            <num_aula>9C</num_aula>
+        </aula>
+        <precios>
+            <antiguos_alumnos>500</antiguos_alumnos>
+            <nuevos_alumnos>800</nuevos_alumnos>
+        </precios>
+        <semana horario="mañana">
+            <fechaInicio>
+                <dia>1</dia>
+                <mes>OCtubre</mes>
+                <año>2023</año>
+            </fechaInicio>
+            <fechaFin>
+                <dia>1</dia>
+                <mes>Diciembre</mes>
+                <año>2024</año>  
+            </fechaFin>
+        </semana>
+        <profesores>
+            <profesor tipo="teoria">
+                <nombre>Daniel</nombre>
+                <apellidos>Leyva</apellidos>
+            </profesor>
+            <profesor tipo="practica">
+                <nombre>Daniel</nombre>
+                <apellidos>Leyva</apellidos>
+            </profesor>
+        </profesores>
+        <temas id="1">
+            <titulo>Introduccion a las bases de datos</titulo>
+            <resumen>Bases de datos, ERD, tablas, parametros, insertar en tablas, etc.</resumen>
+            <palabra_clave>Clave primaria, clave foránea</palabra_clave>
+            <ejercicios>
+                <practicos>
+                    <num_ejercicios>3</num_ejercicios>
+                    <duracion>3 horas</duracion>
+                </practicos>
+                <teoricos>
+                    <num_ejercicios>0</num_ejercicios>
+                    <duracion>0 horas</duracion>
+                </teoricos>
+            </ejercicios>
+        </temas>
+    </curso>
+</escuela>

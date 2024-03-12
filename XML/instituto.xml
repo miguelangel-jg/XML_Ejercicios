@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca SYSTEM "instituto.dtd">
+<instituto>
+
+    <nombre>Ruiz Gijon</nombre>
+    <direccion>Paseo de Consolacion, 1 (Utrera)</direccion>
+    <cursos>
+        <curso>
+            <nombre>1 DAW</nombre>
+            <profesor>Daniel Leyva</profesor>
+            <estudiantes>
+                <estudiante>
+                    <nombre>Miguel Angel</nombre>
+                    <edad>18</edad>
+                    <curso>1DAW</curso>
+                    <calificaciones>
+                        <calificacion>7</calificacion>
+                        <calificacion>9.5</calificacion>
+                        <calificacion>5.83</calificacion>
+                    </calificaciones>
+                </estudiante>
+                <estudiante>
+                    <nombre>Antonio Jesus Carmona</nombre>
+                    <edad>18</edad>
+                    <curso>1DAW</curso>
+                    <calificaciones>
+                        <calificacion>6</calificacion>
+                        <calificacion>5</calificacion>
+                        <calificacion>3</calificacion>
+                    </calificaciones>
+                </estudiante>
+                <estudiante>
+                    <nombre>Alberto Coronilla</nombre>
+                    <edad>19</edad>
+                    <curso>1DAW</curso>
+                    <calificaciones>
+                        <calificacion>4</calificacion>
+                        <calificacion>5</calificacion>
+                        <calificacion>6</calificacion>
+                    </calificaciones>
+                </estudiante>
+            </estudiantes>
+        </curso>
+
+        <personal>
+            <profesores>
+                <profesor>
+                    <nombre>Daniel Leyva</nombre>
+                    <especialidad>Base de Datos</especialidad>
+                </profesor>
+                <profesor>
+                    <nombre>Juanjo Jimenez</nombre>
+                    <especialidad>Sistemas informaticos</especialidad>
+                </profesor>
+            </profesores>
+
+            <personal-administrativo>
+                <seceretaria>
+                    <nombre>Rubiales</nombre>
+                    <puesto>Secretario</puesto>
+                </seceretaria>
+            </personal-administrativo>
+        </personal>
+
+    </cursos>
+</instituto>

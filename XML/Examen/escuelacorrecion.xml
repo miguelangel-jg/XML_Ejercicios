@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE escuela SYSTEM "escuelacorreccion.dtd">
+<!-- EJERCICIO 3 DEL BOLETIN 1 DE XML -->
+<escuela>
+    <curso identificador="1">
+        <nombre>Curso 1</nombre>
+        <duracion>3 meses</duracion>
+        <descripcion>Descripción del Curso 1</descripcion>
+        <becas /> <!-- Tambien podriamos poner <nobecas />-->
+        <aula informatica="si">
+            <numero_planta>1</numero_planta>
+            <numero_aula>101</numero_aula>
+        </aula>
+        <precio>
+            <antiguos_alumnos>200</antiguos_alumnos>
+            <nuevos_alumnos>300</nuevos_alumnos>
+        </precio>
+        <semanas>
+            <semana horario="mañana">
+                <inicio>
+                    <dia>1</dia>
+                    <mes>1</mes>
+                    <año>2024</año>
+                </inicio>
+                <fin>
+                    <dia>31</dia>
+                    <mes>3</mes>
+                    <año>2024</año>
+                </fin>
+            </semana>
+        <!-- Agregar dos semanas más con diferentes fechas -->
+        </semanas>
+        <profesores>
+            <profesor tipo="teoría">
+                <nombre>Profesor1</nombre>
+                <apellidos>Apellido1</apellidos>
+            </profesor>
+            <profesor tipo="prácticas">
+                <nombre>Profesor2</nombre>
+                <apellidos>Apellido2</apellidos>
+            </profesor>
+        </profesores>
+        <temas>
+            <tema numero="1">
+                <titulo>Tema 1</titulo>
+                <resumen>Resumen del Tema 1</resumen>
+                <palabras_clave>Palabra1, Palabra2</palabras_clave>
+                <ejercicios>
+                <practicos>
+                    <num_ejercicios>5</num_ejercicios>
+                    <duracion>2 hor  as</duracion>
+                </practicos>
+                <teoricos>
+                    <num_preguntas>10</num_preguntas>
+                    <duracion>1 hora</duracion>
+                </teoricos>
+                </ejercicios>
+            </tema>
+        <!-- Agregar un tema más con diferente número -->
+        </temas>
+    </curso>
+    <!-- Repetir el bloque anterior para dos cursos más con diferentes datos -->
+</escuela>

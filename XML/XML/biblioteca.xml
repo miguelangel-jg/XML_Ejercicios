@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca SYSTEM "biblioteca.dtd"> 
+
+    <biblioteca>
+        <libro>
+            <titulo>El señor de los anillos</titulo>
+            <autor>J.R.R Tolkien</autor>
+            <anioPublicacion>1945</anioPublicacion>
+            <genero>Fantasia Epica</genero>
+            <descripcion></descripcion>
+            <ubicacion></ubicacion>
+            <disponibilidad></disponibilidad>
+        </libro>
+        <libro>
+            <titulo>El Imperio Final</titulo>
+            <autor>Brandon Sanderson</autor>
+            <anioPublicacion>2006</anioPublicacion>
+            <genero>Fantasia Epica</genero>
+            <descripcion></descripcion>
+            <ubicacion></ubicacion>
+            <disponibilidad></disponibilidad>
+        </libro>
+        <libro>
+            <titulo>Al filo del Ocaso</titulo>
+            <autor>David Lorao</autor>
+            <anioPublicacion>2023</anioPublicacion>
+            <genero>Western</genero>
+            <descripcion></descripcion>
+            <ubicacion></ubicacion>
+            <disponibilidad></disponibilidad>
+        </libro>
+    </biblioteca>

@@ -1,0 +1,17 @@
+body{
+    background-color: lightblue;
+    width: 80%;
+}
+
+table{
+    margin: 0 auto;
+}
+table th{
+    color: whitesmoke;
+    background-color: black;
+}
+
+table td{
+    background-color: lightslategray;
+}
+

@@ -1,0 +1,5 @@
+<!ELEMENT gimnasio (miembro+)>
+<!ELEMENT miembro (nombre,clase+)>
+<!ATTLIST miembro id CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT clase (#PCDATA)>

@@ -1,0 +1,8 @@
+equipo{background-color: lightblue;margin-top: 20px;font-size: 20px;display: flex; flex-direction: column;}
+equipo jugadores, equipo cuerpo_tecnico{padding: 5px;margin-top: 10px;}
+jugadores{display: flex; justify-content: space-between;}
+jugador{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;background-color: white; width: 30%;}
+jugador nombre, cuerpo_tecnico * nombre{font-weight: 600;border: 2px solid gray;}
+* nacionalidad{color: chartreuse; font-weight: 600;}
+jugador habilidades habilidad{ text-decoration: underline;}
+cuerpo_tecnico{ font-style: italic;}

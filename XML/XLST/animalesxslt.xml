@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<animales>
+    <animal>
+        <nombre>León</nombre>
+        <especie>Panthera leo</especie>
+        <habitat>Sabana</habitat>
+    </animal>
+    <animal>
+        <nombre>Pingüino Emperador</nombre>
+        <especie>Aptenodytes forsteri</especie>
+        <habitat>Antártida</habitat>
+    </animal>
+    <animal>
+        <nombre>Tigre</nombre>
+        <especie>Panthera tigris</especie>
+        <habitat>Selva</habitat>
+    </animal>
+    <animal>
+        <nombre>Jirafa</nombre>
+        <especie>Giraffa camelopardalis</especie>
+        <habitat>Sabana</habitat>
+    </animal>
+    <animal>
+        <nombre>Oso Polar</nombre>
+        <especie>Ursus maritimus</especie>
+        <habitat>Ártico</habitat>
+    </animal>
+</animales>

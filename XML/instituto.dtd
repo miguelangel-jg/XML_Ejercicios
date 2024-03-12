@@ -1,0 +1,14 @@
+<!ELEMENT instituto (nombre, direccion, cursos, personal?)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT cursos (curso+)>
+<!ELEMENT curso (nombre, profesor, estudiantes)>
+<!ELEMENT personal (profesores, personal-administrativo?)>
+<!ELEMENT profesores (profesor+)>
+<!ELEMENT personal-administrativo (#PCDATA)>
+<!ELEMENT profesor (nombre, especialidad)>
+<!ELEMENT estudiantes (estudiante+)>
+<!ELEMENT estudiante (nombre, edad, curso, calificaciones)>
+<!ELEMENT calificaciones (calificacion+)>
+<!ELEMENT calificacion (#PCDATA)>
+<!ATTLIST estudiante id ID #REQUIRED>

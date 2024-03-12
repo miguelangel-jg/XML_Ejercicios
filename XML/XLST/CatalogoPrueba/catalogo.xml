@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo>
+    <book id="1">
+        <titulo>El Gran Gatsby</titulo>
+        <autor>
+            <nombre>F. Scott</nombre>
+            <apellido>Fitzgerald</apellido>
+        </autor>
+        <fecha>1925</fecha>
+        <precio>45.99</precio>
+        <genero>Ficción</genero>
+    </book>
+    <book id="2">
+        <titulo>Cien años de soledad</titulo>
+        <autor>
+            <nombre>Gabriel</nombre>
+            <apellido>García Márquez</apellido>
+        </autor>
+        <fecha>1967</fecha>
+        <precio>30.50</precio>
+        <genero>Ficción</genero>
+    </book>
+</catalogo>

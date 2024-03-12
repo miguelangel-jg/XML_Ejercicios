@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca SYSTEM "bibliotecaXML.dtd">
+<?xml-stylesheet type="text/css" href="estilos.css"?>
+<biblioteca>
+    <libros>
+    <libro id="1">
+        <titulo>Elantris</titulo>
+        <autores>
+            <autor>Brandon Sanderson</autor>
+        </autores>
+        <generos>
+            <genero>Fantasia</genero>
+        </generos>
+        <apublicacion>2005</apublicacion>
+        <pclaves>
+            <palabra>Elantris</palabra>
+            <palabra>Raoden</palabra>
+        </pclaves>
+        <disponibilidad prestado="si"></disponibilidad>
+    </libro>
+    
+    <libro id="2">
+        <titulo>Al Filo del Ocaso</titulo>
+        <autores>
+            <autor>David Lorao</autor>
+        </autores>
+        <generos>
+            <genero>Western</genero>
+        </generos>
+        <apublicacion>2024</apublicacion>
+        <pclaves>
+            <palabra>Fantasma</palabra>
+            <palabra>BlackWood</palabra>
+        </pclaves>
+        <disponibilidad prestado="si"></disponibilidad>
+    </libro>
+
+    <libro id="3">
+        <titulo>Don Qujote de la Mancha</titulo>
+        <autores>
+            <autor>Miguel De Cervantes</autor>
+        </autores>
+        <generos>
+            <genero>Satira / Comedia</genero>
+        </generos>
+        <apublicacion>1605</apublicacion>
+        <pclaves>
+            <palabra>Molino</palabra>
+            <palabra>Sancho</palabra>
+        </pclaves>
+        <disponibilidad prestado="no"></disponibilidad>
+    </libro>
+</libros>
+</biblioteca>

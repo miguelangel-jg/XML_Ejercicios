@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE casa SYSTEM "casa.dtd">
+<casa>
+    <direccion>
+        <calle tipo="principal">Paseo de Consolacion</calle>
+        <ciudad>Utrera</ciudad>
+        <provincia>Sevilla</provincia>
+        <pais codigo="esp">España</pais>
+    </direccion>
+    <habitaciones>
+        <habitacion tipo="dormitorio">
+            <nombre>Habitacion principal</nombre>
+            <dimensiones largo="5" ancho="4" altura="3"/>
+            <muebles>
+                <mueble tipo="cama" material="madera"></mueble>
+                <mueble tipo="armario" material="metalico"></mueble>
+            </muebles>
+        </habitacion>
+
+        <habitacion tipo="salon">
+            <nombre>Salon comedor</nombre>
+            <dimensiones largo="8" ancho="6" altura="3"/>
+            <muebles>
+                <mueble tipo="sofa" material="cuero"></mueble>
+                <mueble tipo="mesa" material="madera"></mueble>
+                <mueble tipo="televisor" material="plastico"></mueble>
+            </muebles>
+        </habitacion>
+    </habitaciones>
+    <jardin>
+        <tipo>Delantero</tipo>
+        <dimensiones largo="20" ancho="20" altura=""/>
+        <elementos>
+            <elemento tipo="cesped"></elemento>
+            <elemento tipo="piscina" forma="rectangular"></elemento>
+        </elementos>
+    </jardin>
+
+</casa>

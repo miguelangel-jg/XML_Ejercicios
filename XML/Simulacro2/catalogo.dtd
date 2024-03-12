@@ -1,0 +1,21 @@
+<!ELEMENT productos (producto+)>
+
+<!ELEMENT producto (nombre,marca, categoria, precio, stock, especificaciones , opiniones)>
+<!ATTLIST producto identificador CDATA #REQUIRED>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT categoria (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT stock (#PCDATA)>
+
+
+<!ELEMENT especificaciones (Procesador?, Pulgadas?, RAM,Almacenamiento,SistemaOperativo)>
+<!ELEMENT RAM (#PCDATA)>
+<!ELEMENT Almacenamiento (#PCDATA)>
+<!ELEMENT Pulgadas (#PCDATA)>
+<!ELEMENT Procesador (#PCDATA)>
+<!ELEMENT SistemaOperativo (#PCDATA)>
+
+<!ELEMENT opiniones (opinion+)>
+<!ELEMENT opinion (#PCDATA)>

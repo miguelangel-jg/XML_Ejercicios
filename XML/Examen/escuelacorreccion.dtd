@@ -1,0 +1,64 @@
+<!-- Define que el elemento 'escuela' debe contener uno o más elementos 'curso' -->
+<!ELEMENT escuela (curso+)>
+
+<!-- Define la estructura del elemento 'curso', que debe contener 'nombre', 'duracion', 'descripcion', ('becas' o 'nobecas'), 'aula', 'precio', 'semanas', 'profesores', y uno o más elementos 'temas' -->
+<!ELEMENT curso (nombre, duracion, descripcion, (becas | nobecas), aula, precio, semanas, profesores, temas+)>
+<!-- Define un atributo 'identificador' de tipo CDATA (datos de caracteres) para el elemento 'curso', que es obligatorio (#REQUIRED) -->
+<!ATTLIST curso identificador CDATA #REQUIRED>
+
+<!-- Define la estructura de los elementos de texto dentro de 'curso' -->
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT duracion (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!-- Define un elemento 'becas' vacío y un elemento 'nobecas' vacío -->
+<!ELEMENT becas EMPTY>
+<!ELEMENT nobecas EMPTY>
+
+<!-- Define la estructura del elemento 'aula', que debe contener 'numero_planta' y 'numero_aula' -->
+<!ELEMENT aula (numero_planta, numero_aula)>
+<!-- Define un atributo 'informatica' para 'aula', que es obligatorio (#REQUIRED) y puede ser 'si' o 'no' -->
+<!ATTLIST aula informatica (si | no) #REQUIRED>
+<!ELEMENT numero_planta (#PCDATA)>
+<!ELEMENT numero_aula (#PCDATA)>
+
+<!-- Define la estructura del elemento 'precio', que debe contener 'antiguos_alumnos' y 'nuevos_alumnos' -->
+<!ELEMENT precio (antiguos_alumnos, nuevos_alumnos)>
+<!ELEMENT antiguos_alumnos (#PCDATA)>
+<!ELEMENT nuevos_alumnos (#PCDATA)>
+
+<!-- Define la estructura del elemento 'semanas', que debe contener uno o más elementos 'semana' -->
+<!ELEMENT semanas (semana+)>
+<!-- Define la estructura del elemento 'semana', que debe contener 'inicio' y 'fin', y tiene un atributo 'horario' obligatorio que puede ser 'mañana' o 'tarde' -->
+<!ELEMENT semana (inicio, fin)>
+<!ATTLIST semana horario (mañana | tarde) #REQUIRED>
+<!-- Define la estructura de 'inicio' y 'fin', que contienen 'dia', 'mes', y 'año' -->
+<!ELEMENT inicio (dia, mes, año)>
+<!ELEMENT fin (dia, mes, año)>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT mes (#PCDATA)>
+<!ELEMENT año (#PCDATA)>
+
+<!-- Define la estructura del elemento 'profesores', que debe contener uno o más elementos 'profesor' -->
+<!ELEMENT profesores (profesor+, profesor+)>
+<!-- Define la estructura del elemento 'profesor', que debe contener 'nombre' y 'apellidos', y tiene un atributo 'tipo' obligatorio que puede ser 'teoría' o 'prácticas' -->
+<!ELEMENT profesor (nombre, apellidos)>
+<!ATTLIST profesor tipo (teoría | prácticas) #REQUIRED>
+<!ELEMENT apellidos (#PCDATA)>
+
+<!-- Define la estructura del elemento 'temas', que debe contener uno o más elementos 'tema' -->
+<!ELEMENT temas (tema+)>
+<!-- Define la estructura del elemento 'tema', que debe contener 'titulo', 'resumen', 'palabras_clave', y 'ejercicios' -->
+<!ELEMENT tema (titulo, resumen, palabras_clave, ejercicios)>
+<!-- Define un atributo 'numero' de tipo CDATA para 'tema', que es obligatorio (#REQUIRED) -->
+<!ATTLIST tema numero CDATA #REQUIRED>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT resumen (#PCDATA)>
+<!ELEMENT palabras_clave (#PCDATA)>
+<!-- Define la estructura del elemento 'ejercicios', que debe contener 'practicos' y 'teoricos' -->
+<!ELEMENT ejercicios (practicos, teoricos)>
+<!-- Define la estructura del elemento 'practicos', que debe contener 'num_ejercicios' y 'duracion' -->
+<!ELEMENT practicos (num_ejercicios, duracion)>
+<!-- Define la estructura del elemento 'teoricos', que debe contener 'num_preguntas' y 'duracion' -->
+<!ELEMENT teoricos (num_preguntas, duracion)>
+<!ELEMENT num_ejercicios (#PCDATA)>
+<!ELEMENT num_preguntas (#PCDATA)>

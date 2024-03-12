@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE asignaturas SYSTEM "asignaturas.dtd">
+<DAW>
+    <asignatura>
+        <nombre>Base de Datos</nombre>
+        <profesor>Daniel Leyva</profesor>
+        <horasSemana>6</horasSemana>
+        <notaAsignatura></notaAsignatura>
+    </asignatura>
+    
+    <asignatura>
+        <nombre>Programacion</nombre>
+        <profesor>Ruben Gonzalez</profesor>
+        <horasSemana>8</horasSemana>
+        <notaAsignatura>9.5</notaAsignatura>
+    </asignatura>
+    
+    <asignatura>
+        <nombre>Sistemas Informaticos</nombre>
+        <profesor>Juan Jose Jimenez</profesor>
+        <horasSemana>6</horasSemana>
+        <notaAsignatura>5.25</notaAsignatura>
+    </asignatura>
+
+    <asignatura>
+        <nombre>Entornos de Desarrollo</nombre>
+        <profesor>Jorge Martin</profesor>
+        <horasSemana>3</horasSemana>
+        <notaAsignatura></notaAsignatura>
+    </asignatura>
+
+    <asignatura>
+        <nombre>Lenguaje de Marcas</nombre>
+        <profesor>Carlos Alberto Caro</profesor>
+        <horasSemana>4</horasSemana>
+        <notaAsignatura></notaAsignatura>
+    </asignatura>
+</DAW>

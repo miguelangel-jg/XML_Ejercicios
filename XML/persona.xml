@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persona>
+    <nombre>Miguel Angel</nombre>
+    <apellidos>Jimenez Garrido</apellidos>
+    <dni>54783214C</dni>
+    <telefono>621066990</telefono>
+    <localidad>Utrera</localidad>
+    <provincia>Sevilla</provincia>
+    <direccion>Plaza de la Trianilla</direccion>
+    <numero>16</numero>
+    <letra>E</letra>
+    <planta>1</planta>
+    <puerta>A</puerta>
+</persona>

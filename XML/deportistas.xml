@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE deportistas SYSTEM "deportistas.dtd">
+<deportistas>
+    <deportista>
+        <deporte> 
+            <nombreDeporte>Atletismo</nombreDeporte>
+            <nombre>Jesse Owens</nombre>
+        </deporte>        
+    </deportista>
+    <deportista>
+        <deporte>
+            <nombreDeporte>Natacion</nombreDeporte>
+            <nombre>Mark Spitz</nombre>
+        </deporte>
+    </deportista>
+</deportistas>

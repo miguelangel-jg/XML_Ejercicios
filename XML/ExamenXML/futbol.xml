@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE equipo SYSTEM "futbol.dtd">
+<?xml-stylesheet type="text/css" href="futbol.css"?>
+
+<equipo>
+    <jugadores>
+        <jugador id="1">
+            <nombre>Francisco Alarcon "Isco"</nombre>
+            <posicion dorsal="22">Centrocampista</posicion>
+            <edad>31</edad>
+            <nacionalidad>España</nacionalidad>
+            <habilidades>
+                <!-- Un mediapunta con mucha calidad en 3/4 de campo -->
+                <habilidad>Regate Habil</habilidad>
+                <habilidad>Preciosion en el pase</habilidad>
+            </habilidades>
+        </jugador>
+
+        <jugador id="2">
+            <nombre>Ayoze Perez</nombre>
+            <posicion dorsal="10">Delantero</posicion>
+            <edad>29</edad>
+            <nacionalidad>España</nacionalidad>
+            <habilidades>
+                <!-- Un extremo con mucho regate y grandes habilidades -->
+                <habilidad>Regate Habil</habilidad>
+                <habilidad>Velocidad</habilidad>
+                <habilidad>Precision en el tiro</habilidad>
+            </habilidades>
+        </jugador>
+        <jugador id="3">
+            <nombre>Chadi Riad</nombre>
+            <posicion dorsal="28">Defensa</posicion>
+            <edad>21</edad>
+            <nacionalidad>Marruecos</nacionalidad>
+            <habilidades>
+                <!-- Defensa alto muy rapido y que va bien tanto por arriba como por abajo -->
+                <habilidad>Barridas</habilidad>
+                <habilidad>Entradas efectivas</habilidad>
+                <habilidad>Precision de cabeza</habilidad>
+            </habilidades>
+        </jugador>
+    </jugadores>
+
+    <cuerpo_tecnico>
+        <entrenador>
+            <nombre>Manuel Pellegrini</nombre>
+            <nacionalidad>Chile</nacionalidad>
+            <a_experiencia>45 años</a_experiencia>
+            <fin_contrato>2026</fin_contrato>
+        </entrenador>
+        <segundo_entrenador>
+            <nombre>Ruben Cousillas</nombre>
+            <nacionalidad>Chile</nacionalidad>
+            <a_experiencia>40 años</a_experiencia>
+        </segundo_entrenador>
+        <e_porteros>
+            <nombre>Claudio Bravo</nombre>
+            <nacionalidad>Chile</nacionalidad>
+            <a_experiencia>25 años</a_experiencia>
+        </e_porteros>
+
+    </cuerpo_tecnico>
+</equipo>

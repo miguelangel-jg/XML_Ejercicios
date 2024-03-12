@@ -1,0 +1,7 @@
+
+
+1) //animes/anime[a_estreno > 2010]
+
+2) //animes/anime[estudio='Toei Animation']
+
+3) //animes/anime[genero='Accion']

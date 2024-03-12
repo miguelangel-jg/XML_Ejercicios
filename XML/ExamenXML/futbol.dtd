@@ -1,0 +1,21 @@
+<!ELEMENT equipo (jugadores,cuerpo_tecnico)>
+<!ELEMENT jugadores (jugador+)>
+
+<!ELEMENT jugador (nombre,posicion,edad,nacionalidad,habilidades)>
+<!ATTLIST  jugador id CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT posicion (#PCDATA)>
+<!ATTLIST posicion dorsal CDATA #REQUIRED>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT nacionalidad (#PCDATA)>
+<!ELEMENT  habilidades (habilidad+)>
+<!ELEMENT habilidad (#PCDATA)>
+
+
+<!ELEMENT cuerpo_tecnico (entrenador,segundo_entrenador,e_porteros)>
+<!ELEMENT entrenador (nombre,nacionalidad,a_experiencia,fin_contrato)>
+<!ELEMENT a_experiencia (#PCDATA)>
+<!ELEMENT fin_contrato (#PCDATA)>
+
+<!ELEMENT segundo_entrenador (nombre,nacionalidad,a_experiencia)>
+<!ELEMENT e_porteros (nombre,nacionalidad,a_experiencia)>

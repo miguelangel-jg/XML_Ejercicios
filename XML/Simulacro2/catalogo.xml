@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE productos SYSTEM "catalogo.dtd">
+<productos>
+    <producto identificador="1">
+        <nombre>Xiaomi Redmi Note 13 Pro</nombre>
+        <marca>Xiaomi</marca>
+        <categoria>SmartPhone</categoria>
+        <precio>245€</precio>
+        <stock>25</stock>
+        <especificaciones>
+            <SistemaOperativo>ANDROID</SistemaOperativo>
+            <RAM>8GB</RAM>
+            <Almacenamiento>256GB</Almacenamiento>
+            <Procesador></Procesador>
+        </especificaciones>
+        <opiniones>
+            <opinion>Muy buen telefono calidad-precio</opinion>
+            <opinion>EL mejor movil del 2023 por su precio</opinion>
+        </opiniones>
+    </producto>
+
+    <producto identificador="2">
+        <nombre>LG OLED SMART TV 4K</nombre>
+        <marca>LG</marca>
+        <categoria>Televisiones</categoria>
+        <precio>1200€</precio>
+        <stock>5</stock>
+        <especificaciones>
+            <SistemaOperativo>ANDROID TV</SistemaOperativo>
+            <Pulgadas>65</Pulgadas>
+        </especificaciones>
+        <opiniones>
+            <opinion>Muy buena tele con unos colores muy vivos y una calidad espectacular</opinion>
+            <opinion>Es un poco lenta a la hora de iniciar las aplicaciones</opinion>
+        </opiniones>
+    </producto>
+    <producto identificador="3">
+        <nombre>Hp Victus 3060Ti i5-1400F</nombre>
+        <marca>HP</marca>
+        <categoria>Laptop</categoria>
+        <precio>850</precio>
+        <stock>12</stock>
+        <especificaciones>
+            <Procesador>INTEL i5-1400F</Procesador>
+            <SistemaOperativo>Windows 11</SistemaOperativo>
+            <RAM>16GB</RAM>
+            <Almacenamiento>512GB SSD</Almacenamiento>
+        </especificaciones>
+        <opiniones> 
+            <opinion>Esta bien pero por ese precio hay mas opciones</opinion>
+            <opinion>Un portatil normalillo pero demasiado caro para lo que aporta</opinion>
+        </opiniones>
+    </producto>
+</productos>

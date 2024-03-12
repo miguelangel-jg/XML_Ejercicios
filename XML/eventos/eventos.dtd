@@ -1,0 +1,10 @@
+<!ELEMENT eventos (evento+)>
+<!ELEMENT evento (nombre,tipo_evento,ubicacion,fecha,hora,participantes)>
+<!ATTLIST evento id CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT tipo_evento (#PCDATA)>
+<!ELEMENT ubicacion (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT hora (#PCDATA)>
+<!ELEMENT participantes (participante+)>
+<!ELEMENT participante (#PCDATA)>

@@ -1,0 +1,21 @@
+//Consulta para obtener todos los nombres de los miembros.
+doc("gimnasio.xml")//nombre
+
+//Consulta para obtener miembros inscritos en una clase específica (por ejemplo, Yoga).
+doc("gimnasio.xml")//miembro[clase="Yoga"]  / nombre
+
+//Consulta para obtener el número de clases a las que está inscrito cada miembro.
+doc("gimnasio.xml")
+
+for $i in doc("gimnasio.xml")//miembro 
+return <miembro id="{$i /@id }"> {count($i /clase)} </miembro>
+
+
+//Consulta para listar todas las clases únicas ofrecidas en el gimnasio.
+distinct-values (doc("gimnasio.xml") //clase)
+
+
+//Consulta para obtener miembros ordenados por la cantidad de clases a las que
+están inscritos, de mayor a menor.
+for $i in doc("gimnasio.xml") //miembro
+order by count ($i /clases ascending)

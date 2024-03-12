@@ -1,0 +1,5 @@
+<!ELEMENT peliculas (pelicula+, autor)>
+<!ELEMENT pelicula (titulo, director)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT director (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>

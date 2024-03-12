@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca SYSTEM "biblioteca.dtd">
+<biblioteca>
+    <libro>
+        <titulo>El señor de los anillos</titulo>
+        <autor>J.R.R. Tolkien</autor>
+        <anoPublicacion>1945</anoPublicacion>
+        <genero>Fantasia</genero>
+        <descripcion></descripcion>
+        <ubicacion>Estante 1, Seccion A</ubicacion>
+        <disponibilidad>Si</disponibilidad>
+    </libro>
+    <libro>
+        <titulo>Cien años de soledad</titulo>
+        <autor>Gabriel Garcia Marquez</autor>
+        <anoPublicacion>1967</anoPublicacion>
+        <genero>Realismo magico</genero>
+        <descripcion></descripcion>
+        <ubicacion>Estante 2, Seccion B</ubicacion>
+        <disponibilidad>No</disponibilidad>
+    </libro>
+    <libro>
+        <titulo>1984</titulo>
+        <autor>George Orwell</autor>
+        <anoPublicacion>1949</anoPublicacion>
+        <genero>Distopia</genero>
+        <descripcion>Una novela distopica que aborda temas de vigilancia y control totalitario</descripcion>
+        <ubicacion>Estante 3, Seccion C</ubicacion>
+        <disponibilidad>Si</disponibilidad>
+    </libro>
+</biblioteca>

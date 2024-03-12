@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<biblioteca>
+    <libro id="1">
+        <titulo>Don Quijote</titulo>
+        <autor>Miguel de Cervantes</autor>
+        <genero>Novela Satira / Parodia</genero>
+        <anio>1605</anio>
+    </libro>
+    <libro id="2">
+        <titulo>Elantris</titulo>
+        <autor>Brandon Sanderson</autor>
+        <genero>Novela de Fantasía</genero>
+        <anio>2005</anio>
+    </libro>
+    <libro id="3">
+        <titulo>Al Filo del Ocaso</titulo>
+        <autor>David Lorao</autor>
+        <genero>Novela Western</genero>
+        <anio>2023</anio>
+    </libro>
+</biblioteca>

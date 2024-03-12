@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE eventos SYSTEM "eventos.dtd">
+<eventos>
+    <evento id="1">
+        <nombre>Feria Europea de Artes Escenicas</nombre>
+        <tipo_evento>Teatro / Representacion Teatral</tipo_evento>
+        <ubicacion>Gijon</ubicacion>
+        <fecha>28/02/2024</fecha>
+        <hora>12:00</hora>
+        <participantes>
+            <participante>Compañia Mar Rojo Teatro</participante>
+            <participante>Compañia Luz de Gas </participante>
+        </participantes>
+    </evento>
+    <evento id="2">
+        <nombre>Puro Latino Fest 2024</nombre>
+        <tipo_evento>Festival de Musica </tipo_evento>
+        <ubicacion>El Puerto de Santa Maria (Cadiz)</ubicacion>
+        <fecha>27/07/2024</fecha>
+        <hora>21:00</hora>
+        <participantes>
+            <participante>Jc Reyes</participante>
+            <participante>Saiko</participante>
+            <participante>Dei V</participante>
+        </participantes>
+    </evento>
+    <evento id="3">
+        <nombre>Feria del Queso Artesanal de Andalucía</nombre>
+        <tipo_evento>Festival Gastronomico</tipo_evento>
+        <ubicacion>Cadiz</ubicacion>
+        <fecha>05/04/2024</fecha>
+        <hora>13:00</hora>
+        <participantes>
+            <participante>Quesucos Libiena</participante>
+            <participante>Quesos Bejes-Tresviso</participante>
+        </participantes>
+    </evento>
+    <evento id="4">
+        <nombre>Festival Flamenco de Triana</nombre>
+        <tipo_evento>Festival de Musica</tipo_evento>
+        <ubicacion>Triana (Sevilla)</ubicacion>
+        <fecha>04/04/2024</fecha>
+        <hora>19:30</hora>
+        <participantes>
+            <participante>Funcacion Cristina Heeren</participante>
+        </participantes>
+    </evento>
+    <evento id="5">
+        <nombre>Congreso Mundial del Jamon</nombre>
+        <tipo_evento>Festival Gastronomico</tipo_evento>
+        <ubicacion>Zafra (Badajoz)</ubicacion>
+        <fecha>05/06/2024</fecha>
+        <hora>12:30</hora>
+        <participantes>
+            <participante>Asociacion Española del Jamon</participante>
+            <participante>TecnoCarne</participante>
+        </participantes>
+    </evento>
+</eventos>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gimnasio SYSTEM "gimnasio.dtd">
+<gimnasio>
+    <miembro id="dni1">
+        <nombre>John Doe</nombre>
+        <clase>Yoga</clase>
+        <clase>Pilates</clase>
+    </miembro>
+    <miembro id="dni2">
+        <nombre>Jane Doe</nombre>
+        <clase>Spinning</clase>
+    </miembro>
+    <miembro id="dni3">
+        <nombre>Bob Smith</nombre>
+        <clase>Levantamiento de Pesas</clase>
+        <clase>Crossfit</clase>
+    </miembro>
+</gimnasio>

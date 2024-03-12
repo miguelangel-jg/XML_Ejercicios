@@ -1,0 +1,22 @@
+<!ELEMENT biblioteca (libros)>
+<!ELEMENT libros (libro+)>
+
+<!--Definicion de elementos de la etiqueta libro: -->
+<!ELEMENT libro (titulo,autores,generos,apublicacion,pclaves,disponibilidad)>
+<!ATTLIST libro id CDATA #REQUIRED>
+
+<!ELEMENT titulo (#PCDATA)>
+
+<!ELEMENT autores (autor+)>
+<!ELEMENT autor (#PCDATA)>
+
+<!ELEMENT generos (genero+)>
+<!ELEMENT genero (#PCDATA)>
+
+<!ELEMENT apublicacion (#PCDATA)>
+<!ELEMENT pclaves (palabra+)>
+<!ELEMENT palabra (#PCDATA)>
+
+<!ELEMENT disponibilidad (#PCDATA)>
+
+<!ATTLIST disponibilidad prestado (si | no) #REQUIRED>

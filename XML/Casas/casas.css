@@ -1,0 +1,58 @@
+.divider {
+    border-top: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+.habitacion {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.habitacion:nth-child(even) {
+    background-color: #f2f2f2; /* Fondo para habitaciones pares */
+}
+
+.habitacion h3 {
+    color: #0066cc; /* Color de texto destacado */
+    margin-bottom: 5px;
+}
+
+.habitacion p {
+    font-size: 14px; /* Tamaño de fuente */
+}
+
+.habitacion ul {
+    list-style-type: circle; /* Viñetas personalizadas para listas */
+    margin-top: 5px;
+}
+
+/* Estilo para Muebles */
+.mueble {
+    border: 1px solid #ddd;
+    background-color: #fff;
+    padding: 5px;
+    margin: 5px;
+    display: inline-block;
+}
+
+/* Estilo para el Jardín */
+.jardin {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.jardin h4 {
+    color: #0066cc;
+    margin-bottom: 5px;
+}
+
+.jardin p {
+    font-size: 14px;
+}
+
+.jardin ul {
+    list-style-type: circle;
+    margin-top: 5px;
+}

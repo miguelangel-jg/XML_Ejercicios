@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE animes SYSTEM "animes.dtd">
+<animes>
+    <anime>
+        <titulo>Ataque a los Titanes</titulo>
+        <estudio>Estudio Mappa</estudio>
+        <genero>Drama</genero>
+        <a_estreno>2013</a_estreno>
+    </anime>
+    <anime>
+        <titulo>One Piece</titulo>
+        <estudio>Toei Animation</estudio>
+        <genero>Accion</genero>
+        <a_estreno>1999</a_estreno>
+    </anime>
+    <anime>
+        <titulo>Dragon Ball</titulo>
+        <estudio>Toei Animation</estudio>
+        <genero>Accion</genero>
+        <a_estreno>1989</a_estreno>
+    </anime>
+    <anime>
+        <titulo>Naruto</titulo>
+        <estudio>Pierrot Co., Ltd</estudio>
+        <genero>Artes marciales</genero>
+        <a_estreno>2007</a_estreno>
+    </anime>
+    <anime>
+        <titulo>Samurai de Ojos Azules</titulo>
+        <estudio>Netflix Animation</estudio>
+        <genero>Drama</genero>
+        <a_estreno>2023</a_estreno>
+    </anime>
+</animes>

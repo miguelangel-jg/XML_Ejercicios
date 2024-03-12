@@ -1,0 +1,8 @@
+<!DOCTYPE asignaturas [
+<!ELEMENT DAW (asignatura+)>
+    <!ELEMENT asignatura (nombre,profesor,horasSemana,notaAsignatura?)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT profesor (#PCDATA)>
+    <!ELEMENT horasSemana (#PCDATA)>
+    <!ELEMENT notaAsignatura (#PCDATA)>
+]>
